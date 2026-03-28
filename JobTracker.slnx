@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="JobTracker.API/JobTracker.API.csproj" />
+  <Project Path="JobTracker.Application/JobTracker.Application.csproj" />
+  <Project Path="JobTracker.Domain/JobTracker.Domain.csproj" />
+  <Project Path="JobTracker.Infrastructure/JobTracker.Infrastructure.csproj" />
+  <Project Path="JobTracker.Tests/JobTracker.Tests.csproj" />
+</Solution>

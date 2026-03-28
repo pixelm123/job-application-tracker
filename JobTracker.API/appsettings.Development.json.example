@@ -1,0 +1,27 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=jobtracker;Username=YOUR_USER;Password=YOUR_PASSWORD"
+  },
+  "Jwt": {
+    "Key": "your-secret-key-min-32-characters-long"
+  },
+  "Redis": {
+    "ConnectionString": "localhost:6379,connectTimeout=1000,syncTimeout=1000,abortConnect=false"
+  },
+  "Smtp": {
+    "Host": "localhost",
+    "Port": "1025",
+    "Username": "",
+    "Password": "",
+    "FromEmail": "noreply@jobtracker.local"
+  },
+  "Cors": {
+    "AllowedOrigins": "http://localhost:4200"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft.AspNetCore": "Information"
+    }
+  }
+}

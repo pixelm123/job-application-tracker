@@ -1,3 +1,16 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+uploads/
+appsettings.*.local.json
+appsettings.Development.json
+
+# .NET user secrets are stored outside the repo by default — nothing to ignore
+
 # Logs
 logs
 *.log
