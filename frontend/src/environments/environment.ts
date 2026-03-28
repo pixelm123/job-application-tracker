@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:5293/api'
+  apiUrl: 'https://job-application-tracker-8sqx.onrender.com/api'
 };
