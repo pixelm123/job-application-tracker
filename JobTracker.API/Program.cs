@@ -46,7 +46,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
         policy.WithOrigins(
-                builder.Configuration["Cors:AllowedOrigins"]?.Split(',') ?? ["http://localhost:4200"])
+                builder.Configuration["FRONTEND_URL"] ?? "http://localhost:4200")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
@@ -67,7 +67,7 @@ app.MapScalarApiReference(options =>
 {
     options.Title = "Job Tracker API";
     options.Theme = ScalarTheme.DeepSpace;
-    options.AddServer("https://job-tracker-api.onrender.com");
+    options.AddServer("https://job-application-tracker-8sqx.onrender.com");
 });
 
 app.UseCors();
